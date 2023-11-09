@@ -1,0 +1,81 @@
+body {
+        
+            font-family:cursive;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 3rem 2rem;
+            background-image: url(../../Imagenes/FONDO\ HEADER.avif);
+        }
+        header h1{
+            font-size: 4rem;
+            text-align: center;
+            
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0; 
+            background-color: white;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+            background-color: white;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        h2 {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            color: white;
+            background-color:#333;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-image: url(../../Imagenes/Hambur\ Menu.jpg);
+        }
+
+        .menu-item img {
+            max-width: 100px;
+            max-height: 100px;
+            margin-right: 10px;
+            background-color: white;
+        }
+
+    footer {
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    p{
+        font-family:cursive;
+    }
